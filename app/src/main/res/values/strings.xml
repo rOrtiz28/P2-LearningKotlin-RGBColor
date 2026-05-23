@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RGB Color</string>
+    <string name="redChannel">Red Channel</string>
+    <string name="greenChannel">Green Channel</string>
+    <string name="blueChannel">Blue Channel</string>
+    <string name="createColor">Create RGB Color</string>
+    <string name="displayText">Created color display panel</string>
+    <string name="instructions">Add two hexadecimal characters between 0–9, A-F or a-f without the "#" for each channel</string>
+    <string name="hexErrorMessage">Enter compatible hexadecimal values!</string>
+    <string name="whiteDefault">#FFFFFF</string>
+
+
+</resources>
