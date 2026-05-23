@@ -104,9 +104,7 @@ class MainActivity : ComponentActivity() {
                         Button(
                             modifier = Modifier.fillMaxWidth(),
                             onClick = {
-                                if (redChannel.isNotBlank() &&
-                                    greenChannel.isNotBlank() &&
-                                    blueChannel.isNotBlank() &&
+                                if (
                                     isValidHexInput(redChannel) &&
                                     isValidHexInput(greenChannel) &&
                                     isValidHexInput(blueChannel))
